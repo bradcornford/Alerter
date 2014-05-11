@@ -1,5 +1,10 @@
 # Fast Alerting in Laravel With Templates
 
+[![Latest Stable Version](https://poser.pugx.org/cornford/alerter/version.png)](https://packagist.org/packages/cornford/alerter)
+[![Total Downloads](https://poser.pugx.org/cornford/alerter/d/total.png)](https://packagist.org/packages/cornford/alerter)
+[![Build Status](https://travis-ci.org/bradcornford/Alerter.svg?branch=master)](https://travis-ci.org/bradcornford/Alerter)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/bradcornford/Alerter/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/bradcornford/Alerter/?branch=master)
+
 Think of Alerter as an easy way to manage user alerting, providing a variety of alert options to speed up user alerting. These include:
 
 - `Alert::create`
