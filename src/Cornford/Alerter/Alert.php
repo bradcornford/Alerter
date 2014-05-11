@@ -27,7 +27,14 @@ class Alert extends AlertType implements AlertableInterface {
 	 *
 	 * @var string
 	 */
-	protected $view = 'simple';
+	protected $view;
+
+	/**
+	 * The path for the alert view.
+	 *
+	 * @var string
+	 */
+	protected $viewPath;
 
 	/**
 	 * Construct a new alerter instance.
@@ -42,13 +49,13 @@ class Alert extends AlertType implements AlertableInterface {
 		$this->type = $type;
 		$this->content = $content;
 
-        $viewPath = '';
-        $view = '';
+		$viewPath = '';
+		$view = '';
 
-        if (class_exists('Config')) {
-            $viewPath = Config::get('alerter::path');
-            $view = Config::get('alerter::alert');
-        }
+		if (class_exists('Config')) {
+			$viewPath = Config::get('alerter::path');
+			$view = Config::get('alerter::alert');
+		}
 
 		$this->viewPath = $viewPath ?: dirname(__FILE__) . DIRECTORY_SEPARATOR . 'Views';
 		$this->view = $view ?: AlertDisplay::VIEW_SIMPLE;
