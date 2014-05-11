@@ -1,0 +1,23 @@
+{
+    "name": "cornford/alerter",
+    "description": "An easy way to manage user alerting, providing a variety of alert options to speed up user alerting.",
+    "authors": [
+        {
+            "name": "Bradley Cornford",
+            "email": "me@bradleycornford.co.uk"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.1.*"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "dev-develop"
+    },
+    "autoload": {
+        "psr-0": {
+            "Cornford\\Alerter": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
