@@ -106,4 +106,4 @@ The `content` option is required.
 
 ### License
 
-The Laravel IDE Helper Generator is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+Alerter is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
