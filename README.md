@@ -5,6 +5,8 @@
 [![Build Status](https://travis-ci.org/bradcornford/Alerter.svg?branch=master)](https://travis-ci.org/bradcornford/Alerter)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/bradcornford/Alerter/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/bradcornford/Alerter/?branch=master)
 
+### For Laravel 4.x, check [version 1.0.0](https://github.com/bradcornford/Alerter/tree/v1.0.0)
+
 Think of Alerter as an easy way to manage user alerting, providing a variety of alert options to speed up user alerting. These include:
 
 - `Alert::create`
@@ -27,7 +29,7 @@ It is also full customisable, allowing new templates to be created, along with n
 Begin by installing this package through Composer. Edit your project's `composer.json` file to require `cornford/alerter`.
 
 	"require-dev": {
-		"cornford/alerter": "1.*"
+		"cornford/alerter": "2.*"
 	}
 
 Next, update Composer from the Terminal:
